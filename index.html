@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.gif">
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/flatpickr.min.css">
+
+
+	<title>Lines
+	</title>
+</head>
+<body>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav" style="background-color: rgb(255, 255, 255); padding:20px 0 20px 0; position: fixed;box-shadow: 0px 1px 5px;">
+		<div class="container" >
+			<div class="menu-bg-wrap">
+				<div class="site-navigation" >
+					<div class="row g-0 align-items-center" >
+						<div class="col-2">
+							<a href="index.html" class="logo m-0 float-start"><span class="text-primary"></span><img src="images/logo.png" width="100px"></span></a>
+						</div>
+						<div class="col-8 text-center">
+							<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="mapaTeste.html" target="_blank">Aplicativo</a></li>
+								<li><a href="index.html">Sobre</a></li>
+								<li><a href="contact.html" target="_blank">Contato</a></li>
+								<li><a href="cadastro.html" target="_blank">Cadastrar-se</a></li>
+							</ul>
+						</div>
+						<div class="col-2 text-end">
+							<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light">
+								<span></span>
+							</a>
+
+							<a href="login.html" target="_blank" class="call-us d-flex align-items-center">
+								<span class="icon-person"></span>
+								<span>Login</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero sec-cta overlay" style="background-image: url('images/contact-bg2.png')">
+		<div class="container">
+			<div class="row align-items-center justify-content-between pt-5">
+				<div class="col-lg-6 text-center text-lg-start pe-lg-5">
+					<h1 class="heading text-white mb-3" data-aos="fade-up">Conectando você à cidade.</h1>
+					<p class="text-white mb-5" data-aos="fade-up" data-aos-delay="100">Conectando você as estações de trem e metrô,<br> de forma rápida e eficiente!</p>
+					<div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
+						<a href="login.html" target="_blank" class="btn btn-outline-white-reverse me-4">Entrar</a>
+						<a href="mapa.html" class="text-white glightbox" >Acessar Mapa</a><br>
+					</div>
+				</div>
+				<div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+					<div class="img-wrap">
+						<img src="images/trem-capa2.png" alt="Image" class="img-fluid rounded">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section">
+		<div class="container">
+			<div class="row ">
+				<div class="col-lg-7 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+					<img src="images/celular.png" alt="Image" class="img-fluid rounded" width="600px">
+				</div>
+				<div class="col-lg-4 ps-lg-2" style="padding:100px 20px 80px 20px ">
+					<div class="mb-5">
+						<h2 class="heading text-primary">Estrutura</h2>
+						<p>Conectando você as estações de trem e metrô, de forma rápida e eficiente!</p>
+					</div>
+					<div class="d-flex mb-3 service-alt">
+						<div>
+							<span class="bi-map-fill me-4"></span>
+						</div>
+						<div>
+							<h3>Monitoramento em tempo real</h3>
+							<p>Monitoramento em tempo real dos trens e metrô com base nos feedbacks dos próprios usuários, de acordo com as condições reais do ambiente.</p>
+						</div>
+					</div>
+
+					<div class="d-flex mb-3 service-alt">
+						<div>
+							<span class="bi-compass-fill me-4"></span>
+						</div>
+						<div>
+							<h3>Acompanhe seu trajeto</h3>
+							<p>Acompanhanhe sua viagem em tempo real, com o mapa interativo, mostrando a direção correta para onde o trem irá percorer até seu destino final da pessoa e alertas sobre as linhas .</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section sec-features">
+		<div class="container">
+			<div class="row g-5">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+					<div class="feature d-flex">
+						<img src="images/tempoo.png" width="80px" height="80px"  style="padding:10px">
+						<div>
+							<h3>Economia de tempo</h3>
+							<p>Economize tempo e estresse, com informações em tempo real das estações de trem e metrô.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="feature d-flex">
+						<img src="images/info.png" width="80px" height="80px" style="padding:10px">
+						<div>
+							<h3>Informação em tempo real</h3>
+							<p>Acesso à informação em tempo real: transformando dados em ação instantânea. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+					<div class="feature d-flex">
+						<img src="images/conex.png" width="75px" height="75px" style="padding:10px">
+						<div>
+							<h3>Interação entre usuários</h3>
+							<p>Atráves de alertas, que os usuários poderam acionar, ajudando outros usuários. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+</div>
+
+<div class="section sec-portfolio bg-light pb-5	">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-lg-5 mx-auto text-center ">
+				<h2 class="heading text-primary mb-3" data-aos="fade-up" data-aos-delay="0">Funcionalidades</h2>
+				<p class="mb-4" data-aos="fade-up" data-aos-delay="100">Apresentamos algumas de nossas principais funcionalidades dentro do nosso aplicativo.</p>
+			</div>
+			<div id="post-slider-nav" data-aos="fade-up" data-aos-delay="0" style="text-align: center; margin:10px">
+				<button class="btn btn-primary py-2" class="prev" data-controls="prev">Anterior</button>
+				<button class="btn btn-primary py-2" class="next" data-controls="next">Próximo</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="post-slider-wrap" data-aos="fade-up" data-aos-delay="300" style="padding:0 40px 0 40px">
+
+		<div id="post-slider" class="post-slider">
+			<div class="item">
+				<a href="#" class="card d-block"  style="border-radius: 25px;">
+					<img src="images/b-1.png" width="100%" class="funcionalidade1" alt="Image"   style="border-radius: 25px 25px 0 0 ;">
+					<div class="card-body">
+						<h5 class="card-title">Notícias</h5>
+						<p>Notícias sobre tudo o que está acontecendo sobre os trens e metrô, desde reajuste da passagem até acompanhar greves.</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="item">
+				<a href="#" class="card"  style="border-radius: 25px;">
+					<img src="images/b-2.png" width="100%" class="funcionalidade2" alt="Image"  style="border-radius: 25px 25px 0 0 ;">
+					<div class="card-body">
+						<h5 class="card-title">Geração de Caminhos</h5>
+						<p>Geração de caminhos alternativos de acordo com a situação em tempo real das linhas de trem e estações.</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="item">
+				<a href="#" class="card"  style="border-radius: 25px;">
+					<img src="images/b-3.png" width="100%" class="funcionalidade3" alt="Image" style="border-radius: 25px 25px 0 0 ;">
+					<div class="card-body">
+						<h5 class="card-title">Alertas no Mapa</h5>
+						<p>Visualização dos alertas em tempo real no mapa, para melhor entendimento da real situação das estações.</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="item">
+				<a href="#" class="card"  style="border-radius: 25px;">
+					<img src="images/b-4.png" width="100%" class="funcionalidade4" alt="Image"  style="border-radius: 25px 25px 0 0 ;">
+					<div class="card-body">
+						<h5 class="card-title">Adicionar Alertas</h5>
+						<p>O usuário pode adicionar alertas, que aparecerão no mapa e ajudarão outros usuários em seu trajeto. </p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+
+<div class="section sec-cta overlay" style="background-image: url('images/trem2.png')">
+	<div class="container" style="padding:70px">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-lg-5" data-aos="fade-up" data-aos-delay="0">
+				<h2 class="heading">Começe agora!</h2>
+				<p>Acesse o mapa agora mesmo para conhecer mais nosso serviço, e acompanhar em tempo real como estão as linhas de trem e metrô.</p>
+			</div>
+			<div class="col-lg-5 text-end" data-aos="fade-up" data-aos-delay="100">
+				<a href="mapa.html" target="_blank" class="btn btn-outline-white-reverse">Acesse aqui</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="section sec-testimonial bg-light">
+	<div class="container">
+		<div class="row mb-5 justify-content-center">
+			<div class="col-lg-6 text-center">
+				<h2 class="heading text-primary">O que os passageiros dizem</h2>
+				<p class="mb-4">Comentários reais de passageiros que utilizam nosso aplicativo!</p>
+			</div>
+
+		</div>
+		<div class="testimonial-slider-wrap">
+			<div class="testimonial-slider" id="testimonial-slider">
+				<div class="item">
+					<div class="testimonial-half d-lg-flex bg-white">
+						<div class="img" style="background-image: url('images/cliente1.png')">
+
+						</div>
+						<div class="text">
+							<blockquote>
+								<p>"Graças ao aplicativo de transporte público, minha experiência de viajar para o trabalho se transformou; agora posso evitar congestionamentos, economizar tempo e contribuir para um ambiente mais limpo."</p>
+							</blockquote>
+							<table width="450px">
+								<tr>
+									<td>
+										<div class="author">
+											<strong class="d-block text-black">Vitor Santos</strong>
+											<span>Usuário a 5 anos</span>
+										</div>
+									</td>
+									<td  style="text-align: right;">
+										<div>
+											<br><br>
+											<span> ★ ★ ★ ★ ★  </span>
+											<img src="images/vitor.png" alt="usuário">
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="testimonial-half d-lg-flex bg-white">
+						<div class="img" style="background-image: url('images/cliente5.png')">
+
+						</div>
+						<div class="text">
+							<blockquote>
+								<p> "Como usuário frequente, o aplicativo de transporte público me surpreendeu com a facilidade de uso, facilitando minha vida ao proporcionar informações precisas e opções de pagamento práticas."</p>
+							</blockquote>
+							<table width="450px">
+								<tr>
+									<td>
+										<div class="author">
+											<strong class="d-block text-black">João Messias</strong>
+											<span>Usuário a 1 ano</span>
+										</div>
+									</td>
+									<td  style="text-align: right;">
+										<div>
+											<br><br>
+											<span> ★ ★ ★ ★ ★  </span>
+											<img src="images/messias.png" alt="usuário">
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="testimonial-half d-lg-flex bg-white">
+						<div class="img" style="background-image: url('images/cliente3.png')">
+
+						</div>
+						<div class="text">
+							<blockquote>
+								<p>"O aplicativo de transporte público fez com que eu me sinta mais conectada à cidade, oferecendo opções de rota, preços acessíveis e um modo sustentável de se locomover."</p>
+							</blockquote>
+							<table width="450px">
+								<tr>
+									<td>
+										<div class="author">
+											<strong class="d-block text-black">Jonatas Ferreira</strong>
+											<span>Usuário a 3 anos</span>
+										</div>
+									</td>
+									<td  style="text-align: right;">
+										<div>
+											<br><br>
+											<span> ★ ★ ★ ★ ★  </span>
+											<img src="images/jonatas.png" alt="usuário">
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-half d-lg-flex bg-white" style="border-radius: 25px;">
+						<div class="img" style="background-image: url('images/cliente4.png')">
+
+						</div>
+						<div class="text">
+							<blockquote>
+								<p> "Nunca imaginei que um aplicativo pudesse tornar o transporte público tão conveniente; agora posso planejar minha jornada, acompanhar horários e evitar atrasos."</p>
+							</blockquote>
+							<table width="450px">
+								<tr>
+									<td>
+										<div class="author">
+											<strong class="d-block text-black">André de Castro</strong>
+											<span>Usuário a 4 anos</span>
+										</div>
+									</td>
+									<td  style="text-align: right;">
+										<div>
+											<br><br>
+											<span> ★ ★ ★ ★ ★  </span>
+											<img src="images/castro.png" alt="usuário">
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-half d-lg-flex bg-white">
+						<div class="img" style="background-image: url('images/cliente2.png')">
+
+						</div>
+						<div class="text">
+							<blockquote>
+								<p> "O aplicativo de transporte público revolucionou minha rotina diária, reduzindo o tempo de espera e fornecendo informações em tempo real, tornando minhas viagens mais tranquilas."</p>
+							</blockquote>
+
+							<table width="450px">
+								<tr>
+									<td>
+										<div class="author">
+											<strong class="d-block text-black">João Ramalho</strong>
+											<span>Usuário a 2 anos</span>
+										</div>
+									</td>
+									<td  style="text-align: right;">
+										<div>
+											<br><br>
+											<span> ★ ★ ★ ★ ★  </span>
+											<img src="images/ramalho.png" alt="usuário">
+										</div>
+									</td>
+								</tr>
+							</table>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section" data-aos="fade-up" data-aos-delay="100">
+	
+	<div class="container">
+		<div class="row justify-content-between" style="background-color: #ffffff; border-radius: 30px;">
+			<table align="center" width="500px"		>
+				<tr>
+					<blockquote align="center">
+						<p  style="font-size: 30px; color: #033e8c;">Acesse aqui nosso site e aplicativo</p>
+						<p style="font-size: 18px;">E compartilhe com todos os amigos!</p>
+					</blockquote>
+				</tr>
+				<tr>
+					<td>
+						<div class="col-lg-7 mb-4 mb-lg-0">
+							<a href="https://linesapp.com.br/"><img src="images/Home_Lines (1).png" style="padding: 25px;" alt="Image" class="img-fluid rounded"></a>
+						</div>
+					</td>
+					<td>
+						<div class="col-lg-7 mb-4 mb-lg-0">
+							<a href="https://www.figma.com/proto/XbSQce9xQwf267M8wdo5vy/LocTIme?node-id=8-2&starting-point-node-id=81%3A7&mode=design&t=X77DFrRz5StKonVo-1" target="_blank"><img src="images/App_Lines (1).png" style="padding: 25px;" alt="Image" class="img-fluid rounded"></a>
+						</div>
+					</td>
+					<td>
+						<div class="col-lg-4 ps-lg-2" style="padding: 50px 0 50px 0 ;">
+							<div class="d-flex mb-3 service-alt" style="padding: 25px;">
+								<div>
+									<a href="https://www.figma.com/proto/XbSQce9xQwf267M8wdo5vy/LocTIme?node-id=8-2&starting-point-node-id=81%3A7&mode=design&t=X77DFrRz5StKonVo-1" target="_blank"><img src="images/googlestore.png" width="250px"></a>
+								</div>
+							</div>
+		
+							<div class="d-flex mb-3 service-alt" style="padding: 25px;">
+		
+								<div>
+									<a href="https://www.figma.com/proto/XbSQce9xQwf267M8wdo5vy/LocTIme?node-id=8-2&starting-point-node-id=81%3A7&mode=design&t=X77DFrRz5StKonVo-1" target="_blank"><img src="images/applestore.png" width="250px"></a>
+								</div>
+							</div>
+		
+						</div>
+					</td>
+				</tr>
+				
+				
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="section sec-news">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-lg-7">
+				<h2 class="heading text-primary">Ultimas Notícias</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="card post-entry">
+					<a href="#"><img src="images/noticia1.jpg" class="card-img-top" alt="Image"></a>
+					<div class="card-body">
+						<div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+						<h5 class="card-title"><a href="https://jc.ne10.uol.com.br/colunas/mobilidade/2023/08/15574780-metro-de-sao-paulo-descubra-as-ultimas-noticias-sobre-paralisacao.html" target="_blank">Greve no Metrô de SP pode acontecer em breve</a></h5>
+						<p>Após a decisão de protelar a greve que estava estabelecida para terça-feira, 15/08, no sistema de metrô de São Paulo, o Sindicato dos Metroviários apontou um novo planejamento para as próximas iniciativas.<br>
+
+						<p>	Esse atual prosseguimento de movimentações dos funcionários do metrô paulista foi divulgada através do site oficial da entidade, por meio de uma nota emitida na segunda-feira, 14/08.</p>
+							
+							 </p>
+						<p class="mt-5 mb-0"><a href="https://jc.ne10.uol.com.br/colunas/mobilidade/2023/08/15574780-metro-de-sao-paulo-descubra-as-ultimas-noticias-sobre-paralisacao.html" target="_blank">Ler mais</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="card post-entry">
+					<a href="#"><img src="images/noticia2.webp" class="card-img-top" alt="Image"></a>
+					<div class="card-body">
+						<div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+						<h5 class="card-title"><a href="https://oglobo.globo.com/brasil/sao-paulo/noticia/2023/08/10/the-town-todas-as-linhas-de-trens-e-metro-de-sao-paulo-funcionarao-por-24-horas-para-o-festival.ghtml" target="_blank">The Town: todas as linhas de trens e metrô de São Paulo funcionarão por 24 horas para o festival</a></h5>
+						<p>O Autódromo de Interlagos, na Zona Sul da capital paulista, está com obras avançadas para a primeira edição do festival The Town. Os seis palcos que receberão shows nacionais e internacionais, além de outras áreas de convivência já tem obras avançadas para — a partir de 2 de setembro — receber 100 mil participantes (além de 20 mil funcionários) em cada um dos 5 dias de evento.</p>
+						<p class="mt-5 mb-0"><a href="https://oglobo.globo.com/brasil/sao-paulo/noticia/2023/08/10/the-town-todas-as-linhas-de-trens-e-metro-de-sao-paulo-funcionarao-por-24-horas-para-o-festival.ghtml" target="_blank">Ler mais</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="card post-entry">
+					<a href="https://www.metropoles.com/sao-paulo/apagao-nacional-atinge-sp-e-afeta-circulacao-dos-trens-da-linha-4-amarela" target="_blank"><img src="images/noticia3.webp" class="card-img-top" alt="Image"></a>
+					<div class="card-body">
+						<div><span class="text-uppercase font-weight-bold date">Jan 20, 2021</span></div>
+						<h5 class="card-title"><a href="https://www.metropoles.com/sao-paulo/apagao-nacional-atinge-sp-e-afeta-circulacao-dos-trens-da-linha-4-amarela" target="_blank">Apagão nacional atinge SP e afeta circulação dos trens da Linha 4 Amarela</a></h5>
+						<p>São Paulo – O apagão nacional que atinge vários estados do Brasil na manhã desta terça-feira (15/8) afetou alguns bairros de São Paulo e até a circulação do metrô. Trens da Linha 4 Amarela circularam com velocidade reduzida e lotou as plataformas (veja abaixo). O problema começou por volta de 8h2o e se prolongou, pelo menos, até 9h25. </p>
+						<p class="mt-5 mb-0"><a href="https://www.metropoles.com/sao-paulo/apagao-nacional-atinge-sp-e-afeta-circulacao-dos-trens-da-linha-4-amarela" target="_blank">Ler mais</a></p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
+
+<div class="site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="widget">
+					<h3>Sobre</h3>
+					<p>Lines, conectando você as estações de trem e metrô,<br>
+						de forma rápida e eficiente!</p>
+				</div> <!-- /.widget -->
+				<div class="widget">
+					<address>R. André Thomas - Vila Campesina, Osasco - SP, 06023-120</address>
+					<ul class="list-unstyled links">
+						<li><a href="#">loctime.group@gmail.com</a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<div class="widget">
+					<h3>Company</h3>
+					<ul class="list-unstyled float-start links">
+						<li><a href="#">Sobre nós</a></li>
+						<li><a href="#">Serviços</a></li>
+						<li><a href="#">Visão</a></li>
+						<li><a href="#">Missão</a></li>
+						<li><a href="#">Termos</a></li>
+						<li><a href="#">Privacidade</a></li>
+					</ul>
+					<ul class="list-unstyled float-start links">
+						<li><a href="#">Parceiros</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<div class="widget">
+					<h3>Navigation</h3>
+					<ul class="list-unstyled links mb-4">
+						<li><a href="#">Visão</a></li>
+						<li><a href="#">Sobre nós</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+
+					<h3>Social</h3>
+					<ul class="list-unstyled social">
+						<li><a href="#"><span class="icon-instagram"></span></a></li>
+						<li><a href="#"><span class="icon-twitter"></span></a></li>
+						<li><a href="#"><span class="icon-facebook"></span></a></li>
+						<li><a href="#"><span class="icon-linkedin"></span></a></li>
+						<li><a href="#"><span class="icon-pinterest"></span></a></li>
+						<li><a href="#"><span class="icon-dribbble"></span></a></li>
+					</ul>
+				</div> <!-- /.widget -->
+			</div> <!-- /.col-lg-4 -->
+		</div> <!-- /.row -->
+
+		<div class="row mt-5">
+			<div class="col-12 text-center">
+			
+
+				&copy; 2023 All Rights Reserved. Projected by LocTime LTDA &copy;
+            </p>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+    	<div class="spinner-border text-primary" role="status">
+    		<span class="visually-hidden">Loading...</span>
+    	</div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+
+    <script src="js/flatpickr.min.js"></script>
+
+
+    <script src="js/aos.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  </html>
